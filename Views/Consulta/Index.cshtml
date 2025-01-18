@@ -1,0 +1,31 @@
+@model IEnumerable<HealthTrack.Models.Consulta>
+
+<h2>Lista de Consultas</h2>
+<a class="btn btn-primary mb-3" asp-action="Create">Adicionar Consulta</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Médico</th>
+            <th>Paciente</th>
+            <th>Observações</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var consulta in Model)
+        {
+            <tr>
+                <td>@consulta.DataConsulta.ToShortDateString()</td>
+                <td>@consulta.Medico?.Nome ?? "Médico não encontrado"</td>
+                <td>@consulta.Paciente?.Nome ?? "Paciente não encontrado"</td>
+                <td>@consulta.Observacoes</td>
+                <td>
+                    <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@consulta.Id">Detalhes</a>
+                    <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@consulta.Id">Editar</a>
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@consulta.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

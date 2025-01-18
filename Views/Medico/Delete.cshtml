@@ -1,0 +1,9 @@
+@model HealthTrack.Models.Medico
+
+<h2>Confirmar Exclusão</h2>
+<p>Tem certeza que deseja excluir o médico <strong>@Model.Nome</strong>?</p>
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Excluir</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancelar</a>
+</form>

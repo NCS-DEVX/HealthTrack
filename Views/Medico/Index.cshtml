@@ -1,0 +1,30 @@
+@model IEnumerable<HealthTrack.Models.Medico>
+
+<h2>Lista de Médicos</h2>
+<a class="btn btn-primary mb-3" asp-action="Create">Adicionar Médico</a>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>CRM</th>
+            <th>Especialidade</th>
+            <th>Telefone</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var medico in Model)
+        {
+            <tr>
+                <td>@medico.Nome</td>
+                <td>@medico.CRM</td>
+                <td>@medico.Especialidade</td>
+                <td>@medico.Telefone</td>
+                <td>
+                    <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@medico.Id">Editar</a>
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@medico.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

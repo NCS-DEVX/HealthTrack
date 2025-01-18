@@ -1,0 +1,33 @@
+@model HealthTrack.Models.Consulta
+
+<h2>Adicionar Consulta</h2>
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label for="DataConsulta" class="form-label">Data:</label>
+        <input asp-for="DataConsulta" type="date" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label for="MedicoId" class="form-label">Médico:</label>
+        <select asp-for="MedicoId" class="form-select">
+            @foreach (var medico in ViewBag.Medicos)
+            {
+                <option value="@medico.Id">@medico.Nome</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="PacienteId" class="form-label">Paciente:</label>
+        <select asp-for="PacienteId" class="form-select">
+            @foreach (var paciente in ViewBag.Pacientes)
+            {
+                <option value="@paciente.Id">@paciente.Nome</option>
+            }
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="Observacoes" class="form-label">Observações:</label>
+        <textarea asp-for="Observacoes" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Salvar</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancelar</a>
+</form>
