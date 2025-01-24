@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HealthTrack.6g5oj6kvn9.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6g5oj6kvn9"},{"Name":"integrity","Value":"sha256-agPW0SQ464PZmFT1hNEc0tQid8q6R6qUmaEVjLTDZSc="},{"Name":"label","Value":"_content/HealthTrack/HealthTrack.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022agPW0SQ464PZmFT1hNEc0tQid8q6R6qUmaEVjLTDZSc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 14:59:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022agPW0SQ464PZmFT1hNEc0tQid8q6R6qUmaEVjLTDZSc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 01:59:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HealthTrack/HealthTrack.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HealthTrack.6g5oj6kvn9.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-agPW0SQ464PZmFT1hNEc0tQid8q6R6qUmaEVjLTDZSc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022agPW0SQ464PZmFT1hNEc0tQid8q6R6qUmaEVjLTDZSc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 16 Jan 2025 14:59:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022agPW0SQ464PZmFT1hNEc0tQid8q6R6qUmaEVjLTDZSc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 24 Jan 2025 01:59:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HealthTrack/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

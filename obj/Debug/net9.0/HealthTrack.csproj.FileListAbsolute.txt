@@ -1,11 +1,3 @@
-C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.AssemblyInfoInputs.cache
-C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.AssemblyInfo.cs
-C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.csproj.CoreCompileInputs.cache
-C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.MvcApplicationPartsAssemblyInfo.cache
-C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.RazorAssemblyInfo.cache
-C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.RazorAssemblyInfo.cs
-C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.csproj.AssemblyReference.cache
 C:\Projetos2025\HealthTrack\bin\Debug\net9.0\appsettings.Development.json
 C:\Projetos2025\HealthTrack\bin\Debug\net9.0\appsettings.json
 C:\Projetos2025\HealthTrack\bin\Debug\net9.0\HealthTrack.staticwebassets.runtime.json
@@ -147,6 +139,15 @@ C:\Projetos2025\HealthTrack\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Draw
 C:\Projetos2025\HealthTrack\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Projetos2025\HealthTrack\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Projetos2025\HealthTrack\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.csproj.AssemblyReference.cache
+C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.AssemblyInfoInputs.cache
+C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.AssemblyInfo.cs
+C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.csproj.CoreCompileInputs.cache
+C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.RazorAssemblyInfo.cache
+C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.RazorAssemblyInfo.cs
+C:\Projetos2025\HealthTrack\obj\Debug\net9.0\HealthTrack.sourcelink.json
 C:\Projetos2025\HealthTrack\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Projetos2025\HealthTrack\obj\Debug\net9.0\scopedcss\bundle\HealthTrack.styles.css
 C:\Projetos2025\HealthTrack\obj\Debug\net9.0\scopedcss\projectbundle\HealthTrack.bundle.scp.css

@@ -1,0 +1,36 @@
+@model List<HealthTrack.Models.Medico>
+
+@{
+    ViewData["Title"] = "Lista de Médicos";
+}
+
+<h1>Lista de Médicos</h1>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>CRM</th>
+                <th>Especialidade</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var medico in Model)
+            {
+                <tr>
+                    <td>@medico.Nome</td>
+                    <td>@medico.CRM</td>
+                    <td>@medico.Especialidade</td>
+                    <td>@medico.Telefone</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nenhum médico encontrado.</p>
+}
